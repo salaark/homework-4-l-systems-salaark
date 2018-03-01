@@ -1,10 +1,9 @@
-# L-system Tree
-## Salaar Kohari
+# L-System Tree
 
-## L-System Components
-There are a few rules that define the L-system behavior.  
+## Grammar Rules
+Here are the rules that define the L-system behavior:  
 * [ and ] are save and load turtle state, respectively
-* + is rotate the turtle state (random axis of +/- x/y)
+* \+ is rotate the turtle state (random axis of +/- x/y)
 * D extends a branch in the turtle direction
 * F draws a flower at the turtle orientation
 * B decomposes into D\[+B\] (a recursive branch)
